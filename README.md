@@ -30,8 +30,9 @@ Summary of instructions from here: https://itnext.io/how-to-deploy-angular-appli
  
  - [ ] In package.json, under "scripts" add "heroku-postinstall" ```"heroku-postbuild": "ng build --aot --prod"```  
  
- - [ ] Add the node and npm engines Heroku will use to run the application:  ``` node -v``` & ``` npm -v ```. Include at the bottom of package.json. 
-```  "engines": {
+ - [ ] Add the node and npm engines Heroku will use to run the application:  ``` node -v``` & ``` npm -v ```. Include at the bottom of package.json.    
+```  
+ "engines": {
     "node": "x.x.x",
     "npm": "x.x.x"
   }
